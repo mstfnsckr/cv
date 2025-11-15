@@ -101,6 +101,13 @@ html, body {
     max-width: 600px;
 }
 
+/* Hakkımda, Eğitim ve Deneyim bölümlerini sola yasla */
+.about-me p,
+.education ul,
+.experience p {
+    text-align: left;
+}
+
 .anamenü .section ul {
     list-style-type: none;
     padding: 0;
