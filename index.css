@@ -5,7 +5,6 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Yatay kaydırmayı engelle */
-    height: 100%; /* HTML ve body'nin yüksekliğini %100 yap */
     line-height: 1.6;
     scroll-behavior: smooth;
 }
