@@ -173,7 +173,7 @@ html, body {
         margin-top: 0; /* Üst boşluğu kaldır */
         width: 100%;
         padding: 10px;
-        margin-top: 260px; /* Sabit menü ile ana menü arasında 20px boşluk */
+        /* margin-top: 260px; Bu satır mobil uyumluluk sorununa neden olduğu için kaldırıldı. */
     }
 
     .sabitmenu img {
@@ -183,6 +183,10 @@ html, body {
     .contact-info {
         width: 100%;
         box-sizing: border-box;
+    }
+
+    .anamenü .section {
+        margin-bottom: 30px;
     }
 }
 
