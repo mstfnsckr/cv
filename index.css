@@ -74,7 +74,7 @@ html, body {
     background-color: #FFFFFF;
     box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.05);
     overflow-y: auto;
-    height: 100vh; /* 100% yüksekliğe ayarla */
+    height: 100%; /* 100% yüksekliğe ayarla */
     box-sizing: border-box; /* İçerik kutusunun boyutunu kapsama */
 }
 
@@ -174,7 +174,8 @@ html, body {
         padding: 10px;
         /* margin-top: 260px; Bu satır mobil uyumluluk sorununa neden olduğu için kaldırıldı. */
         height: auto; /* Mobil için yüksekliği otomatik yap */
-        overflow-y: visible; /* İç kaydırmayı devre dışı bırak */
+        overflow-y: hidden; /* İç kaydırmayı tamamen devre dışı bırak */
+        position: static; /* Tüm konumlandırmayı sıfırla */
     }
 
     .sabitmenu img {
